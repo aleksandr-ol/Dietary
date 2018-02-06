@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dietary</string>
+    <string name="remind_title_editText">Введіть заголовок нагадування</string>
+    <string name="remind_time_editText">Введіть час нагадування</string>
+    <string name="remind_checkBox">Включити?</string>
+    <string name="create">Створити</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/row_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingRight="15dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/row_time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:paddingRight="15dp"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:id="@+id/row_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:text="" />
+
+</LinearLayout>
